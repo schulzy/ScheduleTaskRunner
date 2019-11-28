@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTaskRunner", "ScheduleTaskRunner\ScheduleTaskRunner.csproj", "{AD747EA8-AD98-4D71-89D4-3C3A65D58C93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6A48BA3B-9E2F-4F9B-9494-E25E0F66593C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{2E112818-D76C-4B7C-BD8E-9E1AF7A558A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTaskRunner.Runner", "ScheduleTaskRunner.Runner\ScheduleTaskRunner.Runner.csproj", "{67DFEC43-C881-4766-976D-6948667DA98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTaskRunner.BatchModule", "ScheduleTaskRunner.BatchModule\ScheduleTaskRunner.BatchModule.csproj", "{FC113FA5-3FA5-447A-A761-31EBF4E2B538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTaskRunner.ModuleBase", "ScheduleTaskRunner.ModuleBase\ScheduleTaskRunner.ModuleBase.csproj", "{1F4A8EB8-9EBE-4CAA-A728-DE896609E1CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD747EA8-AD98-4D71-89D4-3C3A65D58C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD747EA8-AD98-4D71-89D4-3C3A65D58C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD747EA8-AD98-4D71-89D4-3C3A65D58C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD747EA8-AD98-4D71-89D4-3C3A65D58C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DFEC43-C881-4766-976D-6948667DA98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DFEC43-C881-4766-976D-6948667DA98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DFEC43-C881-4766-976D-6948667DA98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DFEC43-C881-4766-976D-6948667DA98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC113FA5-3FA5-447A-A761-31EBF4E2B538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC113FA5-3FA5-447A-A761-31EBF4E2B538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC113FA5-3FA5-447A-A761-31EBF4E2B538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC113FA5-3FA5-447A-A761-31EBF4E2B538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4A8EB8-9EBE-4CAA-A728-DE896609E1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4A8EB8-9EBE-4CAA-A728-DE896609E1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4A8EB8-9EBE-4CAA-A728-DE896609E1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4A8EB8-9EBE-4CAA-A728-DE896609E1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC113FA5-3FA5-447A-A761-31EBF4E2B538} = {2E112818-D76C-4B7C-BD8E-9E1AF7A558A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB793EB2-6542-40D5-9E24-6ABABEB93225}
+	EndGlobalSection
+EndGlobal
